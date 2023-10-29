@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@400;500&family=Mukta&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin&family=Kanit:wght@400;500&family=Mukta&family=Oswald&display=swap');
+body {
+    background-color: rgb(66, 65, 65);
+    color: white;
+}
+
+.home {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box {
+    border: 3px solid white;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px rgb(0, 65, 87);
+    padding: 50px;
+    text-align: center;
+    background-color: hsl(0, 0%, 0%);
+    position: sticky;
+}
+.box h1 {
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.box p {
+    font-size: 22px;
+    font-family: 'Cabin', sans-serif;
+}
+label {
+    font-size: 22px;
+    font-family: 'Cabin', sans-serif;
+}
+#gussfeild {
+    border: 2px solid rgb(253, 253, 253);
+    background-color: rgb(66, 65, 65);
+    color: white;
+    /* text-align: center; */
+    margin-top: 20px;
+    height: 25px;
+    width: 190px;
+}
+#submitbutton {
+    margin-top: 20px;
+    height: 45px;
+    width: 190px;
+    font-size: 23px;
+    background-color: aqua;
+    border-radius: 25px;
+}
+#submitbutton:hover {
+    background-color: aliceblue;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
